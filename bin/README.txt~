@@ -1,0 +1,28 @@
+Standard port : 2343
+
+Servercommands:
+/list - lists all players connected (name + ip)
+/kick [PLAYERNAME] - kicks a specific player (by name)
+
+Keybindings:
+WASD - move your character
+Mouse - aim (use abilities (Leftclick/Rightclick))
+F10 - Toggle FPS display on/off
+F11 - Toggle Tick display on/off
+T - opens textfield for chat
+Enter - starts the game @ the beginning
+
+Veri(fication)-Co(de)s [VERICOS]
+/*** 000 - 009 RESERVED FOR MANAGEMENT ***\
+000 - New client 
+001 - Client disconnecting
+002 - Client asking for playerlist
+003 - Message
+004
+005
+006
+007
+008
+009
+/*****************************************\
+010 - automatic positionupdate
